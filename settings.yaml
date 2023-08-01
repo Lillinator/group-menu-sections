@@ -2,13 +2,13 @@ custom_section_1:
   type: string
   default: ""
   description:
-    en: "Custom navigation menu section to show to group(s) in setting below. Group visibilty must be set to All in the group interaction settings."
+    en: "Custom navigation menu section to show to group(s) in setting below. User lowercase slug names."
 
 restrict_section_1_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict custom section 1 to these groups only."
+    en: "Restrict custom section 1 to these groups only. Group visibilty must be set to Everyone in the group interaction settings."
 
 custom_section_2:
   type: string
