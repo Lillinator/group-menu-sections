@@ -1,18 +1,85 @@
 @import "str-to-list";
 
-$list: str-to-list("#{$restrict_section_to_these_groups_only}", "|");
 
+@if $restrict_section_1_to_these_groups_only !="" {
+    
+    $list_1: str-to-list("#{$restrict_section_1_to_these_groups_only}", "|");
 
-// * show custom sections for these groups *
-
-@if $restrict_section_to_these_groups_only !="" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_1}"] {
         display: none;
     }
     
-    @each $group in $list {
+    @each $group in $list_1 {
         body.group-#{$group} {
             .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_1}"] {
+            display: block;
+            }
+        }
+    }
+}
+
+@if $restrict_section_2_to_these_groups_only !="" {
+    
+    $list_2: str-to-list("#{$restrict_section_2_to_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_2}"] {
+        display: none;
+    }
+    
+    @each $group in $list_2 {
+        body.group-#{$group} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_2}"] {
+            display: block;
+            }
+        }
+    }
+}
+
+@if $restrict_section_3_to_these_groups_only !="" {
+    
+    $list_3: str-to-list("#{$restrict_section_3_to_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_3}"] {
+        display: none;
+    }
+    
+    @each $group in $list_3 {
+        body.group-#{$group} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_3}"] {
+            display: block;
+            }
+        }
+    }
+}
+
+@if $restrict_section_4_to_these_groups_only !="" {
+    
+    $list_4: str-to-list("#{$restrict_section_4_to_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_4}"] {
+        display: none;
+    }
+    
+    @each $group in $list_4 {
+        body.group-#{$group} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_4}"] {
+            display: block;
+            }
+        }
+    }
+}
+
+@if $restrict_section_5_to_these_groups_only !="" {
+    
+    $list_5: str-to-list("#{$restrict_section_5_to_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_5}"] {
+        display: none;
+    }
+    
+    @each $group in $list_5 {
+        body.group-#{$group} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_5}"] {
             display: block;
             }
         }
