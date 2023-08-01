@@ -1,4 +1,4 @@
-custom_section_1:
+menu_section_1:
   type: string
   default: ""
   description:
@@ -10,7 +10,7 @@ restrict_section_1_to_these_groups_only:
   description:
     en: "Display menu section 1 to these groups only. Group visibilty must be set to Everyone in the group interaction settings."
 
-custom_section_2:
+menu_section_2:
   type: string
   default: ""
   description:
@@ -22,7 +22,7 @@ restrict_section_2_to_these_groups_only:
   description:
     en: "Display menu section 2 for these groups only."
 
-custom_section_3:
+menu_section_3:
   type: string
   default: ""
   description:
@@ -34,7 +34,7 @@ restrict_section_3_to_these_groups_only:
   description:
     en: "Display menu section 3 for these groups only."
 
-custom_section_4:
+menu_section_4:
   type: string
   default: ""
   description:
@@ -46,7 +46,7 @@ restrict_section_4_to_these_groups_only:
   description:
     en: "Display menu section 4 for these groups only."
 
-custom_section_5:
+menu_section_5:
   type: string
   default: ""
   description:
