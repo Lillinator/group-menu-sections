@@ -6,7 +6,7 @@ custom_section_1:
 
 restrict_section_to_these_groups_only:
   type: list
-  list-type: group
+  list-type: groups
   default: ""
   description:
     en: "Restrict user status to these groups only (ie: staff, SuperUsers, Managers)."
