@@ -1,15 +1,20 @@
+@import "str-to-list";
+
+$list: str-to-list("#{$restrict_section_to_these_groups_only}", "|");
+
+
 // * show custom sections for these groups *
 
-@if $hide_custom_section_from_anon == "true" {
-    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_to_hide}"] {
+@if $restrict_section_to_these_groups_only !="" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_1}"] {
         display: none;
     }
-}
-
-@if $hide_custom_section_from_users == "true" {
-  body:not(.staff) {
-    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_to_hide}"] {
-        display: none;
+    
+    @each $group in $list {
+        body.group-#{$group} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section_1}"] {
+            display: block;
+            }
+        }
     }
-  }
 }
