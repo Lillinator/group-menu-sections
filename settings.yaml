@@ -14,7 +14,7 @@ menu_section_2:
   type: string
   default: ""
   description:
-    en: "Navigation menu section to show to group(s) in setting below."
+    en: "Navigation menu section 2 to show to group(s) in setting below."
 
 restrict_section_2_to_these_groups_only:
   type: list
@@ -26,7 +26,7 @@ menu_section_3:
   type: string
   default: ""
   description:
-    en: "Navigation menu section to show to group(s) in setting below."
+    en: "Navigation menu section 3 to show to group(s) in setting below."
 
 restrict_section_3_to_these_groups_only:
   type: list
@@ -38,7 +38,7 @@ menu_section_4:
   type: string
   default: ""
   description:
-    en: "Navigation menu section to show to group(s) in setting below."
+    en: "Navigation menu section 4 to show to group(s) in setting below."
 
 restrict_section_4_to_these_groups_only:
   type: list
@@ -50,7 +50,7 @@ menu_section_5:
   type: string
   default: ""
   description:
-    en: "Navigation menu section to show to group(s) in setting below."
+    en: "Navigation menu section 5 to show to group(s) in setting below."
 
 restrict_section_5_to_these_groups_only:
   type: list
