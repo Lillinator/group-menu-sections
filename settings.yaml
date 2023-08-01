@@ -4,7 +4,7 @@ menu_section_1:
   description:
     en: "Navigation menu section 1 to show to group(s) in setting below. User lowercase slug names."
 
-restrict_section_1_to_these_groups_only:
+display_section_1_for_these_groups_only:
   type: list
   default: ""
   description:
@@ -16,7 +16,7 @@ menu_section_2:
   description:
     en: "Navigation menu section 2 to show to group(s) in setting below."
 
-restrict_section_2_to_these_groups_only:
+display_section_2_for_these_groups_only:
   type: list
   default: ""
   description:
@@ -28,7 +28,7 @@ menu_section_3:
   description:
     en: "Navigation menu section 3 to show to group(s) in setting below."
 
-restrict_section_3_to_these_groups_only:
+display_section_3_for_these_groups_only:
   type: list
   default: ""
   description:
@@ -40,7 +40,7 @@ menu_section_4:
   description:
     en: "Navigation menu section 4 to show to group(s) in setting below."
 
-restrict_section_4_to_these_groups_only:
+display_section_4_for_these_groups_only:
   type: list
   default: ""
   description:
@@ -52,7 +52,7 @@ menu_section_5:
   description:
     en: "Navigation menu section 5 to show to group(s) in setting below."
 
-restrict_section_5_to_these_groups_only:
+display_section_5_for_these_groups_only:
   type: list
   default: ""
   description:
