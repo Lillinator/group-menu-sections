@@ -2,58 +2,58 @@ custom_section_1:
   type: string
   default: ""
   description:
-    en: "Custom navigation menu section to show to specific group.  Group visibilty must be set to all in the group interaction settings."
+    en: "Custom navigation menu section to show to group(s) in setting below. Group visibilty must be set to All in the group interaction settings."
 
 restrict_section_1_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict user status to these groups only (ie: staff, SuperUsers, Managers)."
+    en: "Restrict custom section 1 to these groups only."
 
 custom_section_2:
   type: string
   default: ""
   description:
-    en: "Custom navigation menu section to show to specific group.  Group visibilty must be set to all in the group interaction settings."
+    en: "Custom navigation menu section to show to group(s) in setting below."
 
 restrict_section_2_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict user status to these groups only (ie: staff, SuperUsers, Managers)."
+    en: "Restrict custom section 2 to these groups only."
 
 custom_section_3:
   type: string
   default: ""
   description:
-    en: "Custom navigation menu section to show to specific group.  Group visibilty must be set to all in the group interaction settings."
+    en: "Custom navigation menu section to show to group(s) in setting below."
 
 restrict_section_3_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict user status to these groups only (ie: staff, SuperUsers, Managers)."
+    en: "Restrict custom section 3 to these groups only."
 
 custom_section_4:
   type: string
   default: ""
   description:
-    en: "Custom navigation menu section to show to specific group.  Group visibilty must be set to all in the group interaction settings."
+    en: "Custom navigation menu section to show to group(s) in setting below."
 
 restrict_section_4_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict user status to these groups only (ie: staff, SuperUsers, Managers)."
+    en: "Restrict custom section 4 to these groups only."
 
 custom_section_5:
   type: string
   default: ""
   description:
-    en: "Custom navigation menu section to show to specific group.  Group visibilty must be set to all in the group interaction settings."
+    en: "Custom navigation menu section to show to group(s) in setting below."
 
 restrict_section_5_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict user status to these groups only (ie: staff, SuperUsers, Managers)."
+    en: "Restrict custom section 5 to these groups only."
