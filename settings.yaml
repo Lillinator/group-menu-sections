@@ -8,7 +8,7 @@ restrict_section_1_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Display menu section 1 for these groups only - list groups names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
+    en: "Display menu section 1 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
 
 menu_section_2:
   type: string
