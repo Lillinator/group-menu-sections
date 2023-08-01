@@ -8,7 +8,7 @@ restrict_section_1_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict custom section 1 to these groups only. Group visibilty must be set to Everyone in the group interaction settings."
+    en: "Display custom section 1 to these groups only. Group visibilty must be set to Everyone in the group interaction settings."
 
 custom_section_2:
   type: string
@@ -20,7 +20,7 @@ restrict_section_2_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict custom section 2 to these groups only."
+    en: "Display custom section 2 to these groups only."
 
 custom_section_3:
   type: string
@@ -32,7 +32,7 @@ restrict_section_3_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict custom section 3 to these groups only."
+    en: "Display custom section 3 to these groups only."
 
 custom_section_4:
   type: string
@@ -44,7 +44,7 @@ restrict_section_4_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict custom section 4 to these groups only."
+    en: "Display custom section 4 to these groups only."
 
 custom_section_5:
   type: string
@@ -56,4 +56,4 @@ restrict_section_5_to_these_groups_only:
   type: list
   default: ""
   description:
-    en: "Restrict custom section 5 to these groups only."
+    en: "Display custom section 5 to these groups only."
