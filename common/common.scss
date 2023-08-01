@@ -1,9 +1,9 @@
 @import "str-to-list";
 
 
-@if $restrict_section_1_to_these_groups_only !="" {
+@if $display_section_1_for_these_groups_only !="" {
 
-    $list_1: str-to-list("#{$restrict_section_1_to_these_groups_only}", "|");
+    $list_1: str-to-list("#{$display_section_1_for_these_groups_only}", "|");
 
     .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_1}"] {
         display: none;
@@ -18,9 +18,9 @@
     }
 }
 
-@if $restrict_section_2_to_these_groups_only !="" {
+@if $display_section_2_for_these_groups_only !="" {
 
-    $list_2: str-to-list("#{$restrict_section_2_to_these_groups_only}", "|");
+    $list_2: str-to-list("#{$display_section_2_for_these_groups_only}", "|");
 
     .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_2}"] {
         display: none;
@@ -35,9 +35,9 @@
     }
 }
 
-@if $restrict_section_3_to_these_groups_only !="" {
+@if $display_section_3_for_these_groups_only !="" {
 
-    $list_3: str-to-list("#{$restrict_section_3_to_these_groups_only}", "|");
+    $list_3: str-to-list("#{$display_section_3_for_these_groups_only}", "|");
 
     .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_3}"] {
         display: none;
@@ -52,9 +52,9 @@
     }
 }
 
-@if $restrict_section_4_to_these_groups_only !="" {
+@if $display_section_4_for_these_groups_only !="" {
 
-    $list_4: str-to-list("#{$restrict_section_4_to_these_groups_only}", "|");
+    $list_4: str-to-list("#{$display_section_4_for_these_groups_only}", "|");
 
     .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_4}"] {
         display: none;
@@ -69,9 +69,9 @@
     }
 }
 
-@if $restrict_section_5_to_these_groups_only !="" {
+@if $display_section_5_for_these_groups_only !="" {
 
-    $list_5: str-to-list("#{$restrict_section_5_to_these_groups_only}", "|");
+    $list_5: str-to-list("#{$display_section_5_for_these_groups_only}", "|");
 
     .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_5}"] {
         display: none;
