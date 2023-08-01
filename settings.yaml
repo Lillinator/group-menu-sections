@@ -1,5 +1,8 @@
-
-
+custom_section_1:
+  type: string
+  default: ""
+  description:
+    en: "Custom navigation menu section to show to specific group.  Group visibilty must be set to all in the group interaction settings."
 
 restrict_section_to_these_groups_only:
   type: list
