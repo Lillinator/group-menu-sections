@@ -5,7 +5,7 @@
   if (user) {
     user
       .groups
-      .map((g) => `group-${g.name}`)
+      .map((g) => `group-${g.id}`)
       .forEach((g) => body.classList.add(g));
   }
 </script>

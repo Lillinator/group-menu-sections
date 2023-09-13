@@ -1,59 +1,109 @@
-menu_section_1:
+menu_1:
   type: string
   default: ""
   description:
-    en: "Navigation menu section 1 to show to group(s) in setting below. User lowercase slug names."
+    en: "Navigation menu section 1 to show to group(s) in setting below. Use lowercase names with dashes for spaces (ie: Staff Menu = staff-menu, Anon Menu = anon-menu)."
 
-display_section_1_for_these_groups_only:
+display_menu_1_for_these_groups_only:
   type: list
+  list_type: group
   default: ""
   description:
     en: "Display menu section 1 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
 
-menu_section_2:
+menu_2:
   type: string
   default: ""
   description:
-    en: "Navigation menu section 2 to show to group(s) in setting below."
+    en: "Navigation menu section 2 to show to group(s) in setting below.  Use lowercase names with dashes for spaces."
 
-display_section_2_for_these_groups_only:
+display_menu_2_for_these_groups_only:
   type: list
+  list_type: group
   default: ""
   description:
-    en: "Display menu section 2 for these groups only."
+    en: "Display menu section 2 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
 
-menu_section_3:
+menu_3:
   type: string
   default: ""
   description:
-    en: "Navigation menu section 3 to show to group(s) in setting below."
+    en: "Navigation menu section 3 to show to group(s) in setting below.  Use lowercase names with dashes for spaces."
 
-display_section_3_for_these_groups_only:
+display_menu_3_for_these_groups_only:
   type: list
+  list_type: group
   default: ""
   description:
-    en: "Display menu section 3 for these groups only."
+    en: "Display menu section 3 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
 
-menu_section_4:
+menu_4:
   type: string
   default: ""
   description:
-    en: "Navigation menu section 4 to show to group(s) in setting below."
+    en: "Navigation menu section 4 to show to group(s) in setting below. User lowercase slug names."
 
-display_section_4_for_these_groups_only:
+display_menu_4_for_these_groups_only:
   type: list
+  list_type: group
   default: ""
   description:
-    en: "Display menu section 4 for these groups only."
+    en: "Display menu section 4 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
 
-menu_section_5:
+menu_5:
   type: string
   default: ""
   description:
-    en: "Navigation menu section 5 to show to group(s) in setting below."
+    en: "Navigation menu section 5 to show to group(s) in setting below.  Use lowercase names with dashes for spaces."
 
-display_section_5_for_these_groups_only:
+display_menu_5_for_these_groups_only:
   type: list
+  list_type: group
   default: ""
   description:
-    en: "Display menu section 5 for these groups only."
+    en: "Display menu section 5 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
+
+menu_6:
+  type: string
+  default: ""
+  description:
+    en: "Navigation menu section 6 to show to group(s) in setting below.  Use lowercase names with dashes for spaces."
+
+display_menu_6_for_these_groups_only:
+  type: list
+  list_type: group
+  default: ""
+  description:
+    en: "Display menu section 6 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
+
+menu_7:
+  type: string
+  default: ""
+  description:
+    en: "Navigation menu section 7 to show to group(s) in setting below.  Use lowercase names with dashes for spaces."
+
+display_menu_7_for_these_groups_only:
+  type: list
+  list_type: group
+  default: ""
+  description:
+    en: "Display menu section 7 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
+
+menu_8:
+  type: string
+  default: ""
+  description:
+    en: "Navigation menu section 8 to show to group(s) in setting below.  Use lowercase names with dashes for spaces."
+
+display_menu_8_for_these_groups_only:
+  type: list
+  list_type: group
+  default: ""
+  description:
+    en: "Display menu section 8 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
+
+hide_custom_menus_globe_icon:
+  type: bool
+  default: false
+  description:
+    en: "Hide the custom menu globe icon from staff (this setting only affects staff, since non-staff cannot see the globe by default)."

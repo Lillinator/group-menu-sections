@@ -1,87 +1,160 @@
 @import "str-to-list";
 
 
-@if $display_section_1_for_these_groups_only !="" {
+@if $display_menu_1_for_these_groups_only !="" {
 
-    $list_1: str-to-list("#{$display_section_1_for_these_groups_only}", "|");
+    $list_1: str-to-list("#{$display_menu_1_for_these_groups_only}", "|");
 
-    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_1}"] {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_1}"] {
         display: none;
     }
 
-    @each $group in $list_1 {
-        body.group-#{$group} {
-            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_1}"] {
+    @each $group1 in $list_1 {
+        body.group-#{$group1} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_1}"] {
                 display: block;
             }
         }
     }
 }
 
-@if $display_section_2_for_these_groups_only !="" {
+// * second menu section * //
 
-    $list_2: str-to-list("#{$display_section_2_for_these_groups_only}", "|");
+@if $display_menu_2_for_these_groups_only !="" {
 
-    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_2}"] {
+    $list_2: str-to-list("#{$display_menu_2_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_2}"] {
         display: none;
     }
 
-    @each $group in $list_2 {
-        body.group-#{$group} {
-            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_2}"] {
+    @each $group2 in $list_2 {
+        body.group-#{$group2} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_2}"] {
                 display: block;
             }
         }
     }
 }
 
-@if $display_section_3_for_these_groups_only !="" {
+// * third menu section * //
 
-    $list_3: str-to-list("#{$display_section_3_for_these_groups_only}", "|");
+@if $display_menu_3_for_these_groups_only !="" {
 
-    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_3}"] {
+    $list_3: str-to-list("#{$display_menu_3_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_3}"] {
         display: none;
     }
 
-    @each $group in $list_3 {
-        body.group-#{$group} {
-            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_3}"] {
+    @each $group3 in $list_3 {
+        body.group-#{$group3} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_3}"] {
                 display: block;
             }
         }
     }
 }
 
-@if $display_section_4_for_these_groups_only !="" {
+// * fourth menu section * //
 
-    $list_4: str-to-list("#{$display_section_4_for_these_groups_only}", "|");
+@if $display_menu_4_for_these_groups_only !="" {
 
-    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_4}"] {
+    $list_4: str-to-list("#{$display_menu_4_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_4}"] {
         display: none;
     }
 
-    @each $group in $list_4 {
-        body.group-#{$group} {
-            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_4}"] {
+    @each $group4 in $list_4 {
+        body.group-#{$group4} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_4}"] {
                 display: block;
             }
         }
     }
 }
 
-@if $display_section_5_for_these_groups_only !="" {
+// * first menu section * //
 
-    $list_5: str-to-list("#{$display_section_5_for_these_groups_only}", "|");
+@if $display_menu_5_for_these_groups_only !="" {
 
-    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_5}"] {
+    $list_5: str-to-list("#{$display_menu_5_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_5}"] {
         display: none;
     }
 
-    @each $group in $list_5 {
-        body.group-#{$group} {
-            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_section_5}"] {
+    @each $group5 in $list_5 {
+        body.group-#{$group5} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_5}"] {
                 display: block;
             }
         }
+    }
+}
+
+// * first menu section * //
+
+@if $display_menu_6_for_these_groups_only !="" {
+
+    $list_6: str-to-list("#{$display_menu_6_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_6}"] {
+        display: none;
+    }
+
+    @each $group6 in $list_6 {
+        body.group-#{$group6} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_6}"] {
+                display: block;
+            }
+        }
+    }
+}
+
+// * seventh menu section * //
+
+@if $display_menu_7_for_these_groups_only !="" {
+
+    $list_7: str-to-list("#{$display_menu_7_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_7}"] {
+        display: none;
+    }
+
+    @each $group7 in $list_7 {
+        body.group-#{$group7} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_7}"] {
+                display: block;
+            }
+        }
+    }
+}
+
+// * eighth menu section * //
+
+@if $display_menu_8_for_these_groups_only !="" {
+
+    $list_8: str-to-list("#{$display_menu_8_for_these_groups_only}", "|");
+
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_8}"] {
+        display: none;
+    }
+
+    @each $group8 in $list_8 {
+        body.group-#{$group8} {
+            .sidebar-section-wrapper.sidebar-section[data-section-name="#{$menu_8}"] {
+                display: block;
+            }
+        }
+    }
+}
+
+// * hide globe icon from staff * //
+
+@if $hide_custom_menus_globe_icon =="true" {
+    .sidebar-section-wrapper .sidebar-section-header-global-indicator {
+        display: none;
     }
 }
