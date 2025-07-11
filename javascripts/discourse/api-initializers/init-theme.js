@@ -1,4 +1,6 @@
-<script type="text/discourse-plugin" version="0.8">
+import { apiInitializer } from "discourse/lib/api";
+
+export default apiInitializer((api) => {
   const user = api.getCurrentUser();
   const body = document.querySelector('body');
 
@@ -8,4 +10,4 @@
       .map((g) => `group-${g.id}`)
       .forEach((g) => body.classList.add(g));
   }
-</script>
+});
