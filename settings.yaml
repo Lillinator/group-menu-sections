@@ -15,7 +15,7 @@ group_menus:
         type: groups
         required: true
         validations:
-          max: 1
+          max: 10
 
 hide_custom_menus_globe_icon:
   type: bool
