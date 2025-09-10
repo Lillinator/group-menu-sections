@@ -11,7 +11,7 @@ group_menus:
         validations:
           min_length: 1
           max_length: 50
-      group_id:
+      group:
         type: groups
         required: true
         validations:
