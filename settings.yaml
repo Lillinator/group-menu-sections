@@ -2,20 +2,20 @@ group_menus:
   type: objects
   default: []
   schema:
-    name: group
-    identifier: group_id
+    name: group_menus
+    identifier: menu_name
     properties:
-      group:
-        type: groups
-        required: true
-        validations:
-          max: 1
       menu_name:
         type: string
         required: true
         validations:
           min_length: 1
           max_length: 50
+      group:
+        type: groups
+        required: true
+        validations:
+          max: 1
 
 hide_custom_menus_globe_icon:
   type: bool
