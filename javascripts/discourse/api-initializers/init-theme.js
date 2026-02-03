@@ -1,4 +1,6 @@
+import { addGlobalNotice } from "discourse/components/global-notice";
 import { apiInitializer } from "discourse/lib/api";
+import getURL from "discourse/lib/get-url";
 import I18n from "I18n";
 
 export default apiInitializer((api) => {
